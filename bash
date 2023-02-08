@@ -1,2 +1,8 @@
 #!/bin/bash
-echo 'first shell'
+read -p "what is your password?"  password
+echo $password 
+
+if [ "$password" == "jojo" ]
+then
+    echo "wozap"
+fi
